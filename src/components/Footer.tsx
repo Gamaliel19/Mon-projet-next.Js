@@ -13,7 +13,7 @@ import {
     chakra,
 } from '@chakra-ui/react'
 import AppLogo from './Logo';
-import { FaFacebook, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { BiMailSend } from 'react-icons/bi'
 
 const SocialButton = ({
@@ -79,6 +79,9 @@ export const Footer = () => {
                             </SocialButton>
                             <SocialButton label="Whatsapp" href={"#"}>
                                 <FaWhatsapp />
+                            </SocialButton>
+                            <SocialButton label='Github' href={'https://github.com/Gamaliel19'}>
+                                <FaGithub/>
                             </SocialButton>
                         </Stack>
                     </Stack>
