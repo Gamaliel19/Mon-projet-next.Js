@@ -1,9 +1,11 @@
 'use client'
 
+import 'swiper/swiper-bundle.css'
 import { CacheProvider } from '@chakra-ui/next-js'
 import { ChakraProvider } from '@chakra-ui/react'
 import { theme } from './theme'
 import { Navbar } from '@/components/Navbar/Navbar'
+import { Footer } from '@/components/Footer'
 
 export default function RootLayout({
   children,
@@ -25,9 +27,10 @@ export default function RootLayout({
       <body>
         <CacheProvider>
           <ChakraProvider theme={theme}>
-            <Navbar/>
+            <Navbar />
             {children}
-            </ChakraProvider>
+            <Footer />
+          </ChakraProvider>
         </CacheProvider></body>
     </html>
   )

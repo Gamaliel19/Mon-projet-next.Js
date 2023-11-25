@@ -9,7 +9,9 @@ export default function Home() {
     <div>
       <Banner />
       <TopCategories />
-      <CaracteristiquesProduits />
+      <CaracteristiquesProduits title="Vos meilleur choix" />
+      <CaracteristiquesProduits title="Plus d'articles" />
+      <CaracteristiquesProduits title="Articles en vente" />
     </div>
   )
 }

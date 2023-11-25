@@ -3,7 +3,14 @@ import React from 'react'
 
 export const AddToCardButton = () => {
   return (
-    <Button variant={'outline'} borderColor={'green.400'} color={'green.400'}>
+    <Button 
+    variant={'outline'} 
+    borderColor={'blue.400'} 
+    color={'blue.400'} 
+    rounded={'full'}
+    size={'sm'}
+    w={'150px'}
+    >
       Ajouter au panier
     </Button>
   )
